@@ -19,7 +19,7 @@ class Trainer extends Component {
         <div className="name">{name}</div>
         <div className="address">{address}</div>
 
-        <ul>{trainedPokemons}</ul>
+        <ul className="trained">{trainedPokemons}</ul>
       </div>
     );
   }
